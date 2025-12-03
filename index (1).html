@@ -1,0 +1,1325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Why Democracies Backslide</title>
+    <!-- Tailwind CSS v3 -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome -->
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- AOS - Animate On Scroll -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#1a365d',
+                        secondary: '#2d6a4f',
+                        accent: '#7f5af0',
+                        neutral: '#2b2c34',
+                        'neutral-light': '#d1d5db',
+                        danger: '#e63946',
+                        warning: '#fca311',
+                        success: '#06d6a0',
+                        info: '#118ab2'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                        serif: ['Georgia', 'Cambria', 'serif']
+                    },
+                    boxShadow: {
+                        'custom': '0 4px 20px 0 rgba(0, 0, 0, 0.1)',
+                        'hover': '0 10px 30px 0 rgba(0, 0, 0, 0.15)'
+                    }
+                }
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .text-shadow {
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            }
+            .transition-custom {
+                transition: all 0.3s ease;
+            }
+            .bg-gradient-primary {
+                background: linear-gradient(135deg, theme('colors.primary'), theme('colors.secondary'));
+            }
+            .section-divider {
+                height: 4px;
+                background: linear-gradient(90deg, transparent, theme('colors.accent'), transparent);
+                margin: 2rem auto;
+                width: 80%;
+                max-width: 800px;
+            }
+            .quote-block {
+                border-left: 4px solid theme('colors.accent');
+                padding-left: 1rem;
+                font-style: italic;
+                color: theme('colors.neutral');
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-neutral">
+    <!-- Header Section -->
+    <header class="bg-gradient-primary text-white py-16 px-4 md:px-8">
+        <div class="container mx-auto max-w-5xl" data-aos="fade-down">
+            <h1 class="text-4xl md:text-6xl font-bold text-center mb-4 text-shadow">Why Democracies Backslide</h1>
+            <div class="w-24 h-1 bg-white mx-auto my-6"></div>
+            <p class="text-xl text-center max-w-3xl mx-auto opacity-90">
+                An exploration of the mechanisms, vulnerabilities, and real-world examples of democratic regression
+            </p>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto max-w-5xl px-4 md:px-8">
+            <ul class="flex flex-wrap justify-center py-4 text-sm md:text-base">
+                <li class="mx-2 md:mx-4 mb-2 md:mb-0">
+                    <a href="#introduction" class="block py-2 px-3 rounded-lg hover:bg-gray-100 transition-custom font-medium">Introduction</a>
+                </li>
+                <li class="mx-2 md:mx-4 mb-2 md:mb-0">
+                    <a href="#what-is-democracy" class="block py-2 px-3 rounded-lg hover:bg-gray-100 transition-custom font-medium">What is Democracy?</a>
+                </li>
+                <li class="mx-2 md:mx-4 mb-2 md:mb-0">
+                    <a href="#mechanisms" class="block py-2 px-3 rounded-lg hover:bg-gray-100 transition-custom font-medium">Mechanisms</a>
+                </li>
+                <li class="mx-2 md:mx-4 mb-2 md:mb-0">
+                    <a href="#vulnerabilities" class="block py-2 px-3 rounded-lg hover:bg-gray-100 transition-custom font-medium">Vulnerabilities</a>
+                </li>
+                <li class="mx-2 md:mx-4 mb-2 md:mb-0">
+                    <a href="#case-studies" class="block py-2 px-3 rounded-lg hover:bg-gray-100 transition-custom font-medium">Case Studies</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container mx-auto max-w-5xl px-4 md:px-8 py-12">
+        <!-- Introduction Section -->
+        <section id="introduction" class="mb-16" data-aos="fade-up">
+            <div class="bg-white rounded-xl shadow-custom p-6 md:p-8">
+                <h2 class="text-3xl font-bold mb-6 text-primary">Introduction — What Is Democratic Backsliding?</h2>
+                <div class="prose max-w-none">
+                    <!-- Introduction Card -->
+                    <div class="bg-gradient-to-r from-primary to-secondary text-white p-6 rounded-lg mb-8 shadow-lg">
+                        <h3 class="text-2xl font-bold mb-2">Understanding Democratic Backsliding</h3>
+                        <p class="text-lg">
+                            A democracy that begins to lose pieces of itself—slowly, almost quietly—while still appearing to function as usual.
+                        </p>
+                    </div>
+                    
+                    <!-- Main Introduction -->
+                    <p class="mb-6 text-lg">
+                        When we talk about democratic backsliding, we're describing a process that's often hard to detect in its early stages. It helps to think of democracy as a living system whose health can deteriorate long before it collapses outright.
+                    </p>
+                    
+                    <!-- First Characteristic Section -->
+                    <h3 class="text-2xl font-bold mb-4 text-primary">The First Characteristic: Gradual Decline</h3>
+                    
+                    <p class="mb-4">
+                        Democratic backsliding rarely announces itself with fanfare. Unlike a dramatic coup or authoritarian takeover—moments when institutions fall like a building suddenly losing its scaffolding—democratic erosion happens quietly.
+                    </p>
+                    
+                    <div class="bg-blue-50 p-5 rounded-lg mb-6 border-l-4 border-primary">
+                        <p class="font-medium">
+                            Instead of sudden collapse, backsliding arrives in small, seemingly insignificant steps:
+                        </p>
+                    </div>
+                    
+                    <!-- Examples of Gradual Decline -->
+                    <div class="grid md:grid-cols-3 gap-4 mb-8">
+                        <div class="bg-gray-50 p-4 rounded-lg shadow-sm">
+                            <h4 class="font-bold mb-2 text-primary">Legal Procedures</h4>
+                            <p class="text-sm">New laws thatseems reasonable but gradually restrict rights</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg shadow-sm">
+                            <h4 class="font-bold mb-2 text-primary">Institutional "Repairs"</h4>
+                            <p class="text-sm">Changes presented as improvements that weaken checks and balances</p>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg shadow-sm">
+                            <h4 class="font-bold mb-2 text-primary">Executive Power Expansion</h4>
+                            <p class="text-sm">Incremental stretching of presidential or prime ministerial authority</p>
+                        </div>
+                    </div>
+                    
+                    <!-- Concrete Examples -->
+                    <div class="bg-yellow-50 p-6 rounded-lg my-8 border-l-4 border-warning">
+                        <h4 class="font-bold mb-3">Concrete Examples</h4>
+                        <ul class="list-disc pl-6 space-y-3">
+                            <li>
+                                <span class="font-medium">Judicial Abuse:</span> A government using courts to imprison journalists, disguised as routine legal proceedings
+                            </li>
+                            <li>
+                                <span class="font-medium">Electoral Manipulation:</span> Quietly replacing election administrators with political loyalists while maintaining electoral formalities
+                            </li>
+                            <li>
+                                <span class="font-medium">Term Limit Erosion:</span> Weakening presidential term limits through court rulings that reinterpret constitutional meaning, avoiding formal amendments
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <p class="mb-8">
+                        No dramatic announcement is made, yet something essential shifts. This is why we must be attentive to the accumulation of these subtle changes: individually they seem manageable, but together they erode the system from within.
+                    </p>
+                    
+                    <!-- Second Characteristic Section -->
+                    <h3 class="text-2xl font-bold mb-4 text-primary">The Second Characteristic: Unfolding Mechanisms</h3>
+                    
+                    <p class="mb-4">
+                        Backsliding also has distinctive mechanisms through which it operates. These are the specific ways in which democratic quality deteriorates:
+                    </p>
+                    
+                    <div class="grid md:grid-cols-2 gap-6 mb-8">
+                        <div class="bg-gray-50 p-5 rounded-lg shadow-sm border-l-4 border-info">
+                            <h4 class="font-bold mb-2">Erosion Without Abolition</h4>
+                            <p>Democracies may not abolish elections, but they erode public trust in them</p>
+                        </div>
+                        <div class="bg-gray-50 p-5 rounded-lg shadow-sm border-l-4 border-info">
+                            <h4 class="font-bold mb-2">Norm Weakening</h4>
+                            <p>They may not end universal suffrage, but they weaken the norms that protect it</p>
+                        </div>
+                    </div>
+                    
+                    <div class="bg-red-50 p-6 rounded-lg my-8 border-l-4 border-danger">
+                        <p class="mb-2">
+                            Constraints on executive power—whether written into law or upheld by long-established political expectations—may begin to loosen, one strand at a time (Little and Meng 155, 159).
+                        </p>
+                        <p>
+                            The democratic system continues to exist, but its internal stability is slowly unravelling.
+                        </p>
+                    </div>
+                    
+                    <!-- Conclusion -->
+                    <div class="bg-gradient-to-r from-primary/10 to-secondary/10 p-6 rounded-lg mt-8">
+                        <p class="text-lg font-medium text-primary">
+                            To truly understand this regression, we must ask ourselves: What exactly is slipping away? Before we can diagnose the decline, we must return to democracy itself—what it promises, what sustains it, and what must remain intact for it to thrive.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- What is Democracy Section -->
+        <section id="what-is-democracy" class="mb-16" data-aos="fade-up" data-aos-delay="100">
+            <div class="bg-white rounded-xl shadow-custom p-6 md:p-8">
+                <h2 class="text-3xl font-bold mb-6 text-primary">What is Democracy?</h2>
+                <div class="prose max-w-none">
+                    <div class="bg-blue-50 p-6 rounded-lg mb-8 border-l-4 border-primary">
+                        <p class="text-lg font-medium text-primary">
+                            To understand democratic backsliding, we first need to grasp what constitutes a healthy democracy. Let's explore the foundational elements that make democracy work.
+                        </p>
+                    </div>
+
+                    <h3 class="text-2xl font-bold mb-4 text-secondary">The Core of Democracy</h3>
+                    <p class="mb-6">
+                        Democracy is an integral concept in contemporary society (Munck 22). At its core, it is often understood as "rule by the demos," meaning that political authority ultimately belongs to the majority rather than to a privileged few.
+                    </p>
+                    
+                    <h3 class="text-2xl font-bold mb-4 text-secondary">Two Fundamental Principles</h3>
+                    <p class="mb-4">
+                        To make this possible, democracy depends on two fundamental principles:
+                    </p>
+                    
+                    <div class="grid md:grid-cols-2 gap-6 mb-8">
+                        <div class="bg-gray-50 p-5 rounded-lg shadow-sm border-l-4 border-info">
+                            <h4 class="font-bold text-lg mb-2 text-info">Political Freedom</h4>
+                            <p>Allows individuals to express preferences without coercion</p>
+                        </div>
+                        <div class="bg-gray-50 p-5 rounded-lg shadow-sm border-l-4 border-success">
+                            <h4 class="font-bold text-lg mb-2 text-success">Political Equality</h4>
+                            <p>Ensures that each citizen's rights and influence are treated equally in the political process (Munck 11)</p>
+                        </div>
+                    </div>
+                    
+                    <p class="mb-6">
+                        These principles matter because they determine whether democratic rule genuinely reflects the people's will and whether leaders remain accountable. Political freedom gives citizens space to voice their choices without fear, while political equality prevents those choices from being overshadowed by disparities in status or resources (Schmitter and Karl 6-7, 9).
+                    </p>
+                    
+                    <div class="bg-yellow-50 p-5 rounded-lg mb-8 border-l-4 border-warning">
+                        <p class="italic">
+                            "Together, they allow democracy to function as a system of ongoing expression, participation, and competition."
+                        </p>
+                    </div>
+                    
+                    <h3 class="text-2xl font-bold mb-4 text-secondary">Beyond Values: Institutions Matter</h3>
+                    <p class="mb-4">
+                        Yet values alone do not sustain democracy. Freedom and equality explain why democracy matters, but they do not explain how it operates in practice.
+                    </p>
+                    <p class="mb-6">
+                        For that, we must view democracy as a set of institutions and procedures that translate these principles into action (Schmitter and Karl 4).
+                    </p>
+                    
+                    <div class="bg-gray-50 p-6 rounded-lg mb-8">
+                        <h4 class="font-bold mb-3">Key Democratic Institutions</h4>
+                        <ul class="list-disc pl-6 space-y-2">
+                            <li>Free and fair elections</li>
+                            <li>Competitive political parties</li>
+                            <li>Independent judiciary</li>
+                            <li>Free press and media</li>
+                            <li>Active civil society organizations</li>
+                        </ul>
+                        <p class="mt-3 text-sm text-gray-600">
+                            These form the institutional framework that enables democratic commitments to produce real political outcomes (Schmitter and Karl 6-7; Gorokhovskaia and Grothe 15, 35).
+                        </p>
+                    </div>
+                    
+                    <p class="mb-6">
+                        Without transparent electoral rules, checks on executive authority, and protections for dissent, freedom and equality remain largely symbolic.
+                    </p>
+                    
+                    <h3 class="text-2xl font-bold mb-4 text-secondary">Three Interdependent Foundations</h3>
+                    <p class="mb-4">
+                        From this institutional perspective, democracy rests on three crucial pillars:
+                    </p>
+                    
+                    <div class="grid md:grid-cols-3 gap-4 my-6">
+                        <div class="bg-blue-50 p-5 rounded-lg shadow-sm">
+                            <h4 class="font-bold mb-2 text-primary">1. Freedom of Expression</h4>
+                            <p class="text-sm">The freedom of citizens to express their opinions and the independence of the media (Gorokhovskaia and Grothe 16)</p>
+                        </div>
+                        <div class="bg-green-50 p-5 rounded-lg shadow-sm">
+                            <h4 class="font-bold mb-2 text-secondary">2. Political Participation</h4>
+                            <p class="text-sm">Ensures equal standing for all citizens in the political process (Gorokhovskaia and Grothe 6)</p>
+                        </div>
+                        <div class="bg-purple-50 p-5 rounded-lg shadow-sm">
+                            <h4 class="font-bold mb-2 text-accent">3. Political Competition</h4>
+                            <p class="text-sm">Ensures that public power remains substitutable rather than entrenched (Schmitter and Karl 4-5)</p>
+                        </div>
+                    </div>
+                    
+                    <p class="mb-6">
+                        Democracy possesses representativeness, openness, and accountability only when these foundations operate together.
+                    </p>
+                    
+                    <h3 class="text-2xl font-bold mb-4 text-secondary">Understanding Different Levels of Democracy</h3>
+                    
+                    <div class="grid md:grid-cols-2 gap-6 mb-8">
+                        <div class="bg-gray-50 p-5 rounded-lg shadow-sm border-l-4 border-info">
+                            <h4 class="font-bold text-lg mb-2">Minimalist Democracy</h4>
+                            <p class="mb-2">Requires only regular and competitive elections through which governments can be replaced</p>
+                            <p class="text-sm text-gray-600">(Przeworski and Limongi 178)</p>
+                        </div>
+                        <div class="bg-gray-50 p-5 rounded-lg shadow-sm border-l-4 border-success">
+                            <h4 class="font-bold text-lg mb-2">Maximalist Democracy</h4>
+                            <p class="mb-2">Incorporates additional elements such as political freedoms, the rule of law, media independence, civil society participation, and institutional checks and balances</p>
+                            <p class="text-sm text-gray-600">(Dahl 1989; Schmitter and Karl 7-9, 11)</p>
+                        </div>
+                    </div>
+                    
+                    <p class="mb-6">
+                        This broader framework highlights that democracy is not simply electoral competition but a political order in which freedom, equality, and participation are institutionalized.
+                    </p>
+                    
+                    <div class="bg-red-50 p-6 rounded-lg border-l-4 border-danger">
+                        <h4 class="font-bold mb-2 text-danger">The Path to Democratic Backsliding</h4>
+                        <p>
+                            Taken together, these institutionalized elements sustain democratic stability. When they weaken—through reduced political competition, unequal participation, or shrinking civil liberties—the quality of democracy deteriorates. Over time, such deterioration can lead to what we call democratic backsliding.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- Mechanisms Section -->
+        <section id="mechanisms" class="mb-16" data-aos="fade-up" data-aos-delay="200">
+            <div class="bg-white rounded-xl shadow-custom p-6 md:p-8">
+                <h2 class="text-3xl font-bold mb-6 text-primary">Mechanisms of Democratic Backsliding</h2>
+                <!-- Introduction to Mechanisms -->
+                <div class="bg-gradient-to-r from-primary to-accent text-white p-6 rounded-lg mb-8 shadow-lg">
+                    <h3 class="text-2xl font-bold mb-2">Mechanisms of Democratic Backsliding</h3>
+                    <p class="text-lg">
+                        How democracy erodes from within through four distinct pathways
+                    </p>
+                </div>
+                
+                <!-- Key Insight Box -->
+                <div class="bg-yellow-50 p-6 rounded-lg mb-8 border-l-4 border-warning">
+                    <h4 class="font-bold text-lg mb-2">The Essence of Modern Backsliding</h4>
+                    <p class="italic">
+                        "Democratic backsliding often uses 'legal tools' for 'illegal purposes' — a combination of legalism + incrementalism + operation within institutions."
+                    </p>
+                </div>
+                
+                <!-- Mechanism Tabs -->
+                <div class="mb-6">
+                    <div class="flex flex-wrap border-b border-gray-200">
+                        <button class="mechanism-tab px-4 py-2 font-medium text-gray-600 hover:text-danger hover:border-b-2 hover:border-danger transition-custom" data-target="executive">
+                            1. Executive Aggrandizement
+                        </button>
+                        <button class="mechanism-tab px-4 py-2 font-medium text-gray-600 hover:text-warning hover:border-b-2 hover:border-warning transition-custom" data-target="harassment">
+                            2. Strategic Harassment
+                        </button>
+                        <button class="mechanism-tab px-4 py-2 font-medium text-gray-600 hover:text-info hover:border-b-2 hover:border-info transition-custom" data-target="electoral">
+                            3. Electoral Manipulation
+                        </button>
+                        <button class="mechanism-tab px-4 py-2 font-medium text-gray-600 hover:text-success hover:border-b-2 hover:border-success transition-custom" data-target="media">
+                            4. Media Capture
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Mechanism Content -->
+                <div class="mechanism-content" id="executive-content">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-danger text-white w-10 h-10 rounded-full flex items-center justify-center mr-3">
+                            <span class="font-bold">1</span>
+                        </div>
+                        <h3 class="text-2xl font-bold text-danger">Executive Aggrandizement</h3>
+                    </div>
+                    
+                    <div class="bg-gray-50 p-6 rounded-lg border-l-4 border-danger">
+                        <p class="mb-4">
+                            The expansion of executive power is often accompanied by the redistribution of resources and personnel by the rulers. This redistribution is usually achieved through bribery, appeasement, and more covert selective persecution, thereby consolidating their political control (Levitsky and Way 53).
+                        </p>
+                        
+                        <h4 class="font-bold text-lg mb-3">Four Key Areas of Consolidation</h4>
+                        
+                        <div class="space-y-4">
+                            <div class="bg-white p-4 rounded shadow-sm">
+                                <h5 class="font-bold mb-1">Elections</h5>
+                                <p class="text-sm">Despite regular elections, the process can be rife with abuses of state power, biased media reporting, and (often violent) harassment of opposition candidates and activists (Levitsky and Way 55).</p>
+                                <p class="text-sm italic mt-2">Example: In Peru, Fujimori won re-election in 2000 but was forced to resign months later due to electoral fraud scandals (Levitsky and Way 55).</p>
+                            </div>
+                            
+                            <div class="bg-white p-4 rounded shadow-sm">
+                                <h5 class="font-bold mb-1">Legislature</h5>
+                                <p class="text-sm">Those in power may attempt to circumvent or even shut down the legislature when it opposes executive interests (Levitsky and Way 56).</p>
+                            </div>
+                            
+                            <div class="bg-white p-4 rounded shadow-sm">
+                                <h5 class="font-bold mb-1">Judiciary</h5>
+                                <p class="text-sm">The expansion often attempts to subjugate the judiciary to executive power.</p>
+                                <p class="text-sm italic mt-2">Example: In Russia, Yeltsin cut off the court's telephone lines and removed guards after the Constitutional Court ruled the decree dissolving parliament unconstitutional (Levitsky and Way 56).</p>
+                            </div>
+                            
+                            <div class="bg-white p-4 rounded shadow-sm">
+                                <h5 class="font-bold mb-1">Media</h5>
+                                <p class="text-sm">The executive branch actively seeks to suppress independent media, but uses more subtle repressive mechanisms than in a completely authoritarian regime (Levitsky and Way 58).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mechanism-content hidden" id="harassment-content">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-warning text-white w-10 h-10 rounded-full flex items-center justify-center mr-3">
+                            <span class="font-bold">2</span>
+                        </div>
+                        <h3 class="text-2xl font-bold text-warning">Strategic Harassment and Repression</h3>
+                    </div>
+                    
+                    <div class="bg-gray-50 p-6 rounded-lg border-l-4 border-warning">
+                        <p class="mb-4">
+                            This mechanism is characterized by subtlety, legitimacy, and systematic attacks on key competitive areas of the democratic system.
+                        </p>
+                        
+                        <h4 class="font-bold text-lg mb-3">Targeted Areas of Attack</h4>
+                        
+                        <div class="grid md:grid-cols-2 gap-4">
+                            <div class="bg-white p-4 rounded shadow-sm">
+                                <h5 class="font-bold mb-1">Electoral Arena</h5>
+                                <p class="text-sm">Ensures the opposition is at a disadvantage through systematic manipulation (Levitsky and Way 55).</p>
+                                <p class="text-sm italic mt-2">Example: The ruling party abuses state resources to deny the opposition sufficient media coverage (Levitsky and Way 55).</p>
+                            </div>
+                            
+                            <div class="bg-white p-4 rounded shadow-sm">
+                                <h5 class="font-bold mb-1">Judicial Arena</h5>
+                                <p class="text-sm">Attempts to subjugate the judiciary to executive power in order to eliminate legal checks and balances.</p>
+                                <p class="text-sm italic mt-2">Methods include impeachment or more subtle means such as bribery, blackmail, and appeasement (Levitsky and Way 56).</p>
+                            </div>
+                            
+                            <div class="bg-white p-4 rounded shadow-sm">
+                                <h5 class="font-bold mb-1">Legislative Sphere</h5>
+                                <p class="text-sm">Ensures that even if the opposition uses the legislature as a venue for rallies and organizations, such activities have little substantial impact (unless there is extensive coverage by independent media) (Levitsky and Way 56).</p>
+                            </div>
+                            
+                            <div class="bg-white p-4 rounded shadow-sm">
+                                <h5 class="font-bold mb-1">Media Sphere</h5>
+                                <p class="text-sm">Usually manifested in the widespread use of restrictive press laws to "legally" harass journalists.</p>
+                                <p class="text-sm italic mt-2">Example: In Ghana, the government used colonial-era libel laws to imprison several newspaper editors and columnists (Levitsky and Way 58).</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mechanism-content hidden" id="electoral-content">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-info text-white w-10 h-10 rounded-full flex items-center justify-center mr-3">
+                            <span class="font-bold">3</span>
+                        </div>
+                        <h3 class="text-2xl font-bold text-info">Electoral Manipulation</h3>
+                    </div>
+                    
+                    <div class="bg-gray-50 p-6 rounded-lg border-l-4 border-info">
+                        <p class="mb-4">
+                            This refers to weakening the substantive competitiveness of elections through a series of implicit and institutionalized methods, while maintaining the appearance of democratic processes.
+                        </p>
+                        
+                        <div class="bg-blue-50 p-4 rounded-lg mb-6">
+                            <h4 class="font-bold mb-2">Key Methods of Electoral Manipulation</h4>
+                            <ul class="list-disc pl-6 space-y-2">
+                                <li>Abuse of state resources and mobilization of the bureaucratic system</li>
+                                <li>Monopolization of media exposure</li>
+                                <li>Selective harassment of opposition using tax authorities, regulatory agencies, and the judicial system</li>
+                                <li>Interference with voting processes by adjusting election rules</li>
+                                <li>Manipulation of election commissions</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="bg-white p-5 rounded-lg shadow-sm">
+                            <h5 class="font-bold mb-2">The "Legal" Facade</h5>
+                            <p class="mb-2">
+                                The ruling party often makes it difficult for the opposition to carry out normal political activities in a seemingly "legal" environment (Levitsky and Way 53).
+                            </p>
+                            <p>
+                                Although elections still exist and regime changes occasionally occur, the balance of power is often systematically tilted towards the incumbent. Because these procedures take the form of "legitimate procedural reforms," they are difficult for the international community to immediately identify and are not easily captured by common democratic indicators (Levitsky and Way 55).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mechanism-content hidden" id="media-content">
+                    <div class="flex items-center mb-4">
+                        <div class="bg-success text-white w-10 h-10 rounded-full flex items-center justify-center mr-3">
+                            <span class="font-bold">4</span>
+                        </div>
+                        <h3 class="text-2xl font-bold text-success">Media Capture and Shrinking Civic Space</h3>
+                    </div>
+                    
+                    <div class="bg-gray-50 p-6 rounded-lg border-l-4 border-success">
+                        <p class="mb-4">
+                            The ruling party systematically eliminates key mechanisms for checks and balances and suppresses critical voices while maintaining the appearance of democracy.
+                        </p>
+                        
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <!-- Media Capture -->
+                            <div>
+                                <h4 class="font-bold text-lg mb-3 text-success">Media Capture</h4>
+                                <div class="bg-white p-4 rounded shadow-sm">
+                                    <p class="mb-3">
+                                        The ruling party aims to suppress independent media through subtle and covert means (Levitsky and Way 58).
+                                    </p>
+                                    
+                                    <h5 class="font-bold mb-2">Common Methods:</h5>
+                                    <ul class="list-disc pl-6 space-y-1 text-sm">
+                                        <li>Bribery of media owners and journalists</li>
+                                        <li>Selective allocation of state advertising</li>
+                                        <li>Manipulation of media organizations' debt and taxes</li>
+                                    </ul>
+                                    
+                                    <div class="mt-3 p-3 bg-yellow-50 rounded text-sm italic">
+                                        Example: In Russia, the government used the debt owed by an independent television station to Gazprom to orchestrate a takeover by pro-government forces (Levitsky and Way 58).
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Shrinking Civic Space -->
+                            <div>
+                                <h4 class="font-bold text-lg mb-3 text-success">Shrinking Civic Space</h4>
+                                <div class="bg-white p-4 rounded shadow-sm">
+                                    <p class="mb-3">
+                                        This often manifests as the ruling party using the state apparatus to covertly "strategically harass and repress" critics.
+                                    </p>
+                                    
+                                    <h5 class="font-bold mb-2">Common Methods:</h5>
+                                    <ul class="list-disc pl-6 space-y-1 text-sm">
+                                        <li>Using tax authorities to audit critics</li>
+                                        <li>Employing subservient judicial bodies to file lawsuits</li>
+                                        <li>Using other state institutions to blackmail or "legally" harass opponents</li>
+                                    </ul>
+                                    
+                                    <div class="mt-3 p-3 bg-red-50 rounded text-sm">
+                                        As a result, journalists, opposition politicians, and critics may be subject to surveillance, threats, harassment, or arrest (Levitsky and Way 53).
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Conclusion -->
+                <div class="bg-primary bg-opacity-10 p-6 rounded-lg mt-8">
+                    <h4 class="font-bold text-xl mb-3 text-primary">Recognizing the Patterns</h4>
+                    <p>
+                        These four mechanisms rarely operate in isolation. They often work together, reinforcing each other to erode democratic institutions from within. By understanding these patterns, we can better identify early warning signs of democratic backsliding and work to counteract them.
+                    </p>
+                </div>
+                
+                <script>
+                    // Mechanism Tabs Functionality
+                    document.addEventListener('DOMContentLoaded', function() {
+                        const mechanismTabs = document.querySelectorAll('.mechanism-tab');
+                        const mechanismContents = document.querySelectorAll('.mechanism-content');
+                        
+                        mechanismTabs.forEach(tab => {
+                            tab.addEventListener('click', () => {
+                                const target = tab.getAttribute('data-target');
+                                
+                                // Remove active class from all tabs
+                                mechanismTabs.forEach(t => {
+                                    t.classList.remove('text-danger', 'text-warning', 'text-info', 'text-success', 'border-b-2', 'border-danger', 'border-warning', 'border-info', 'border-success');
+                                    t.classList.add('text-gray-600');
+                                });
+                                
+                                // Add active class to clicked tab based on target
+                                if (target === 'executive') {
+                                    tab.classList.add('text-danger', 'border-b-2', 'border-danger');
+                                } else if (target === 'harassment') {
+                                    tab.classList.add('text-warning', 'border-b-2', 'border-warning');
+                                } else if (target === 'electoral') {
+                                    tab.classList.add('text-info', 'border-b-2', 'border-info');
+                                } else if (target === 'media') {
+                                    tab.classList.add('text-success', 'border-b-2', 'border-success');
+                                }
+                                tab.classList.remove('text-gray-600');
+                                
+                                // Hide all content
+                                mechanismContents.forEach(content => {
+                                    content.classList.add('hidden');
+                                });
+                                
+                                // Show target content
+                                document.getElementById(`${target}-content`).classList.remove('hidden');
+                                
+                                // Add animation
+                                const activeContent = document.getElementById(`${target}-content`);
+                                activeContent.style.opacity = '0';
+                                setTimeout(() => {
+                                    activeContent.style.transition = 'opacity 0.5s ease-in-out';
+                                    activeContent.style.opacity = '1';
+                                }, 10);
+                            });
+                        });
+                        
+                        // Set default active tab
+                        mechanismTabs[0].click();
+                    });
+                </script>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- Institutional Vulnerabilities Section -->
+        <section id="vulnerabilities" class="mb-16" data-aos="fade-up" data-aos-delay="300">
+            <div class="bg-white rounded-xl shadow-custom p-6 md:p-8">
+                <h2 class="text-3xl font-bold mb-6 text-primary">Institutional Vulnerabilities</h2>
+                
+                <!-- Introduction Card -->
+                <div class="bg-gradient-to-r from-primary/10 to-accent/10 p-6 rounded-lg mb-8 border-l-4 border-primary">
+                    <h3 class="text-xl font-bold mb-2">Why Do Some Democracies Backslide Faster?</h3>
+                    <p class="text-gray-700">
+                        Not all democracies erode at the same pace. Understanding the vulnerabilities that accelerate democratic backsliding is crucial for early detection and prevention.
+                    </p>
+                </div>
+                
+                <!-- Key Factors Section -->
+                <div class="grid md:grid-cols-2 gap-8 mb-8">
+                    <!-- Institutional Strength -->
+                    <div class="bg-white p-6 rounded-lg shadow-md border-t-4 border-primary">
+                        <h3 class="text-xl font-bold mb-4 text-primary">1. Weak Institutional Strength</h3>
+                        
+                        <div class="mb-4">
+                            <h4 class="font-semibold mb-2">The Accountability Gap</h4>
+                            <p class="text-sm mb-3">
+                                Democracies with weak institutional strength suffer from deficiencies in horizontal accountability - the ability of government institutions to check and balance each other.
+                            </p>
+                        </div>
+                        
+                        <div class="space-y-3">
+                            <div class="flex items-start">
+                                <div class="bg-primary/20 p-1 rounded-full mr-3 mt-1">
+                                    <i class="fa fa-check text-primary text-xs"></i>
+                                </div>
+                                <p class="text-sm">
+                                    <strong>Judicial bypass:</strong> Leaders can more easily circumvent courts when judicial independence is weak
+                                </p>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-primary/20 p-1 rounded-full mr-3 mt-1">
+                                    <i class="fa fa-check text-primary text-xs"></i>
+                                </div>
+                                <p class="text-sm">
+                                    <strong>Legislative weakening:</strong> Executive branches can undermine parliamentary oversight
+                                </p>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-primary/20 p-1 rounded-full mr-3 mt-1">
+                                    <i class="fa fa-check text-primary text-xs"></i>
+                                </div>
+                                <p class="text-sm">
+                                    <strong>Independent bodies:</strong> Agencies like election commissions lose autonomy
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4 p-3 bg-yellow-50 rounded text-sm italic">
+                            "These institutions are powerless to prevent increasingly authoritarian behavior by government members." (Waldner and Lust 99)
+                        </div>
+                    </div>
+                    
+                    <!-- Social Polarization -->
+                    <div class="bg-white p-6 rounded-lg shadow-md border-t-4 border-warning">
+                        <h3 class="text-xl font-bold mb-4 text-warning">2. Social Polarization</h3>
+                        
+                        <div class="mb-4">
+                            <h4 class="font-semibold mb-2">The "Enemy" Mentality</h4>
+                            <p class="text-sm mb-3">
+                                Political polarization creates an environment where opponents are no longer seen as competitors but as existential threats.
+                            </p>
+                        </div>
+                        
+                        <div class="space-y-3">
+                            <div class="flex items-start">
+                                <div class="bg-warning/20 p-1 rounded-full mr-3 mt-1">
+                                    <i class="fa fa-exclamation text-warning text-xs"></i>
+                                </div>
+                                <p class="text-sm">
+                                    <strong>Threat perception:</strong> Opposing political camp portrayed as dangerous "others"
+                                </p>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-warning/20 p-1 rounded-full mr-3 mt-1">
+                                    <i class="fa fa-exclamation text-warning text-xs"></i>
+                                </div>
+                                <p class="text-sm">
+                                    <strong>Extreme policy support:</strong> Public becomes willing to back radical measures to neutralize perceived threats
+                                </p>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-warning/20 p-1 rounded-full mr-3 mt-1">
+                                    <i class="fa fa-exclamation text-warning text-xs"></i>
+                                </div>
+                                <p class="text-sm">
+                                    <strong>"Lesser of two evils" mentality:</strong> Voters ignore democratic threats to prevent opposition victory
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4 p-3 bg-red-50 rounded text-sm italic">
+                            "This shift in public attitudes creates space for political elites to pursue lasting dominance, bending rules and ignoring democratic norms." (Waldner and Lust 109)
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Interactive Element: The Vicious Cycle -->
+                <div class="bg-white p-6 rounded-lg shadow-lg mb-8">
+                    <h3 class="text-xl font-bold mb-4">The Vicious Cycle of Backsliding</h3>
+                    
+                    <div class="relative overflow-hidden rounded-lg bg-gradient-to-r from-gray-50 to-gray-100 p-6">
+                        <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+                            <div class="flex-1 text-center md:text-left">
+                                <div class="bg-primary/10 p-4 rounded-lg">
+                                    <h4 class="font-bold text-primary mb-2">Weak Institutions</h4>
+                                    <p class="text-sm">Create power vacuums that leaders exploit</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center justify-center">
+                                <i class="fa fa-long-arrow-right text-gray-400 text-2xl"></i>
+                            </div>
+                            
+                            <div class="flex-1 text-center md:text-left">
+                                <div class="bg-warning/10 p-4 rounded-lg">
+                                    <h4 class="font-bold text-warning mb-2">Power Concentration</h4>
+                                    <p class="text-sm">Leaders consolidate authority</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-center justify-center">
+                                <i class="fa fa-long-arrow-right text-gray-400 text-2xl"></i>
+                            </div>
+                            
+                            <div class="flex-1 text-center md:text-left">
+                                <div class="bg-danger/10 p-4 rounded-lg">
+                                    <h4 class="font-bold text-danger mb-2">Polarization Increases</h4>
+                                    <p class="text-sm">Public becomes more divided</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4 text-center">
+                            <i class="fa fa-long-arrow-up text-gray-400 text-2xl transform rotate-45"></i>
+                        </div>
+                        
+                        <div class="text-center mt-2">
+                            <p class="text-sm text-gray-600 italic">Cycle repeats, accelerating backsliding</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Conclusion -->
+                <div class="bg-primary bg-opacity-5 p-6 rounded-lg border border-primary/20">
+                    <h3 class="text-xl font-bold mb-3 text-primary">Key Takeaway</h3>
+                    <p class="mb-2">
+                        The speed of democratic backsliding depends largely on two interconnected factors:
+                    </p>
+                    <ul class="list-disc pl-6 space-y-1">
+                        <li>The strength of institutional checks and balances</li>
+                        <li>The level of social and political polarization</li>
+                    </ul>
+                    <p class="mt-3">
+                        By addressing these vulnerabilities - strengthening institutions and reducing polarization - democracies can better resist erosion and maintain their integrity.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <div class="section-divider"></div>
+
+        <!-- Case Studies Section -->
+        <section id="case-studies" class="mb-16" data-aos="fade-up" data-aos-delay="400">
+            <div class="bg-white rounded-xl shadow-custom p-6 md:p-8">
+                <h2 class="text-3xl font-bold mb-6 text-primary">Global Case Studies — How Democracies Backslide in Reality</h2>
+                
+                <!-- Case Study Tabs -->
+                <div class="mb-6">
+                    <div class="flex flex-wrap border-b border-gray-200">
+                        <button class="case-tab px-4 py-2 font-medium text-gray-600 hover:text-primary hover:border-b-2 hover:border-primary transition-custom" data-target="turkey">
+                            Turkey — Erdogan
+                        </button>
+                        <button class="case-tab px-4 py-2 font-medium text-gray-600 hover:text-primary hover:border-b-2 hover:border-primary transition-custom" data-target="india">
+                            India — Modi
+                        </button>
+                        <button class="case-tab px-4 py-2 font-medium text-gray-600 hover:text-primary hover:border-b-2 hover:border-primary transition-custom" data-target="hungary">
+                            Hungary — Orbán
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Case Study Content -->
+                <div class="case-content" id="turkey-content">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <h3 class="text-2xl font-bold mb-4 text-danger">Turkey — Recep Tayyip Erdogan</h3>
+                            
+                            <h4 class="font-bold text-lg mb-2">Background</h4>
+                            <p class="mb-4">
+                                Around 2000, Turkey was an "electoral democracy," but the military had a strong influence and the party system was unstable.
+                            </p>
+                            
+                            <h4 class="font-bold text-lg mb-2">Institutional Vulnerabilities</h4>
+                            <ul class="list-disc pl-6 mb-4 space-y-1">
+                                <li>The presidential system strengthened executive dominance (after the 2017 referendum)</li>
+                                <li>The strongman party (AKP) structurally controlled resources</li>
+                            </ul>
+                            
+                            <h4 class="font-bold text-lg mb-2">Mechanisms of Backsliding</h4>
+                            <ul class="list-disc pl-6 mb-4 space-y-1">
+                                <li>Using the judicial system to suppress the opposition (such as the HDP)</li>
+                                <li>Centralizing power through state of emergency and constitutional amendments</li>
+                                <li>The media was directly or indirectly controlled by the government</li>
+                            </ul>
+                        </div>
+                        
+                        <div>
+                            <h4 class="font-bold text-lg mb-2">Reasons for Faster Sliding</h4>
+                            <ul class="list-disc pl-6 mb-4 space-y-2">
+                                <li>Taking power during a period of economic prosperity (2002–2013) → Erdogan initially enjoyed extremely high public support, accelerating the legitimacy of executive centralization</li>
+                                <li>The 2017 constitutional reform established a presidential system, structurally concentrating power in the president and accelerating the decline</li>
+                                <li>Early purges of the military and judiciary (especially after the 2016 failed coup) eliminated potential opposition forces</li>
+                                <li>The media's heavy reliance on government procurement and regulation → made it vulnerable to rapid co-optation or pressure</li>
+                            </ul>
+                            
+                            <div class="mt-6 p-4 bg-danger bg-opacity-10 rounded-lg border border-danger border-opacity-30">
+                                <h4 class="font-bold mb-2">Outcome</h4>
+                                <p>
+                                    Turkey has clearly entered into competitive authoritarianism. The regression was driven by supporters and proceeded rapidly, but it faces greater opposition compared to Hungary.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="case-content hidden" id="india-content">
+                    <!-- Introduction Card -->
+                    <div class="bg-gradient-to-r from-info/10 to-accent/10 p-6 rounded-lg mb-8 border-l-4 border-info">
+                        <h3 class="text-2xl font-bold mb-2 text-info">India — Narendra Modi</h3>
+                        <p class="text-gray-700">
+                            From the world's largest democracy to an electoral autocracy in just a decade
+                        </p>
+                    </div>
+                    
+                    <!-- Background Section -->
+                    <div class="mb-8">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-info text-white w-8 h-8 rounded-full flex items-center justify-center mr-3">
+                                <span class="font-bold">1</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-info">Background</h3>
+                        </div>
+                        
+                        <div class="bg-white p-6 rounded-lg shadow-md">
+                            <p class="mb-4">
+                                India is widely regarded as the world's largest and most enduring post-colonial democracy (Vaishnav 35).
+                            </p>
+                            
+                            <div class="grid md:grid-cols-2 gap-4 mb-4">
+                                <div class="bg-blue-50 p-4 rounded-lg">
+                                    <h4 class="font-bold mb-2">The Democratic Decline</h4>
+                                    <p class="text-sm">
+                                        Since 2014, the rise of the Bharatiya Janata Party (BJP) under Narendra Modi has coincided with a notable democratic decline.
+                                    </p>
+                                </div>
+                                
+                                <div class="bg-red-50 p-4 rounded-lg">
+                                    <h4 class="font-bold mb-2">Evidence in Indices</h4>
+                                    <p class="text-sm">
+                                        This trend is reflected in sharp drops across Freedom House, V-Dem, and European University Institute (EUI) indices (35).
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="p-4 bg-yellow-50 rounded-lg border-l-4 border-warning">
+                                <p class="italic">
+                                    "India's case challenges the assumption that long-lasting democracies automatically develop self-protective institutions: even deep-rooted democracies can erode rapidly when oversight institutions weaken."
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Institutional Vulnerability Section -->
+                    <div class="mb-8">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-info text-white w-8 h-8 rounded-full flex items-center justify-center mr-3">
+                                <span class="font-bold">2</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-info">Institutional Vulnerability</h3>
+                        </div>
+                        
+                        <div class="space-y-6">
+                            <!-- Parliamentary System Issue -->
+                            <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-primary">
+                                <h4 class="font-bold text-lg mb-3">Parliamentary System + Strong Majority → Centralized Executive Power</h4>
+                                
+                                <div class="space-y-3">
+                                    <div class="flex items-start">
+                                        <div class="bg-primary/20 p-1 rounded-full mr-3 mt-1">
+                                            <i class="fa fa-exclamation-circle text-primary text-xs"></i>
+                                        </div>
+                                        <p class="text-sm">
+                                            A single-party majority (as in BJP's victories in 2014 and 2019) allows the prime minister to dominate cabinet and parliament, weakening intra-elite checks (Vaishnav 37).
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="flex items-start">
+                                        <div class="bg-primary/20 p-1 rounded-full mr-3 mt-1">
+                                            <i class="fa fa-exclamation-circle text-primary text-xs"></i>
+                                        </div>
+                                        <p class="text-sm">
+                                            This enables the fast passage of executive priorities, including identity-based legislation, with limited scrutiny.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Weakening of Arbitration Bodies -->
+                            <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-warning">
+                                <h4 class="font-bold text-lg mb-3">Weakening of Arbitration Bodies</h4>
+                                
+                                <div class="grid md:grid-cols-2 gap-4">
+                                    <div>
+                                        <h5 class="font-bold mb-2">Supreme Court</h5>
+                                        <ul class="list-disc pl-6 space-y-1 text-sm">
+                                            <li>Increasingly deferential—delayed hearings on Section 370</li>
+                                            <li>Failed to halt mass detentions</li>
+                                            <li>Declined to block the election bonds scheme before elections (Vaishnav 40)</li>
+                                        </ul>
+                                    </div>
+                                    
+                                    <div>
+                                        <h5 class="font-bold mb-2">Election Commission of India (ECI)</h5>
+                                        <ul class="list-disc pl-6 space-y-1 text-sm">
+                                            <li>Showed bias or inaction—postponed Gujarat elections</li>
+                                            <li>Selectively disciplined opposition while shielding Modi and Shah (Vaishnav 42)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Structural Dependence -->
+                            <div class="bg-white p-6 rounded-lg shadow-md border-l-4 border-danger">
+                                <h4 class="font-bold text-lg mb-3">Structural Dependence of Civil Society and Media</h4>
+                                
+                                <div class="grid md:grid-cols-2 gap-4">
+                                    <div>
+                                        <h5 class="font-bold mb-2">Media Vulnerability</h5>
+                                        <p class="text-sm">
+                                            Media dependence on government advertising allows "informal pressure" without explicit censorship (Vaishnav 48).
+                                        </p>
+                                    </div>
+                                    
+                                    <div>
+                                        <h5 class="font-bold mb-2">Civil Society Constraints</h5>
+                                        <p class="text-sm">
+                                            Civil society organizations face selective restrictions through the Foreign Contribution Regulation Act (FCRA), constraining funding sources (48).
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Regression Mechanisms Section -->
+                    <div class="mb-8">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-info text-white w-8 h-8 rounded-full flex items-center justify-center mr-3">
+                                <span class="font-bold">3</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-info">Regression Mechanisms</h3>
+                        </div>
+                        
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <!-- Identity-Based Legal Changes -->
+                            <div class="bg-white p-6 rounded-lg shadow-md">
+                                <h4 class="font-bold text-lg mb-3 text-danger">Identity-Based Legal Changes (CAA/NRC)</h4>
+                                
+                                <div class="space-y-3">
+                                    <div class="flex items-start">
+                                        <div class="bg-danger/20 p-1 rounded-full mr-3 mt-1">
+                                            <i class="fa fa-gavel text-danger text-xs"></i>
+                                        </div>
+                                        <p class="text-sm">
+                                            <strong>CAA:</strong> Excludes Muslim immigrants from fast-tracked citizenship.
+                                        </p>
+                                    </div>
+                                    
+                                    <div class="flex items-start">
+                                        <div class="bg-danger/20 p-1 rounded-full mr-3 mt-1">
+                                            <i class="fa fa-gavel text-danger text-xs"></i>
+                                        </div>
+                                        <p class="text-sm">
+                                            <strong>NRC:</strong> Risks rendering Muslim minorities stateless.
+                                        </p>
+                                    </div>
+                                </div>
+                                
+                                <div class="mt-4 p-3 bg-red-50 rounded text-sm">
+                                    Citizenship becomes increasingly tied to religious identity rather than constitutional equality.
+                                </div>
+                            </div>
+                            
+                            <!-- Other Mechanisms -->
+                            <div class="space-y-6">
+                                <!-- Informal Media Control -->
+                                <div class="bg-white p-4 rounded-lg shadow-md">
+                                    <h4 class="font-bold mb-2 text-warning">Informal Media Control</h4>
+                                    <p class="text-sm">
+                                        Tax raids, licensing threats, and ad allocation produce widespread self-censorship despite the absence of formal censorship laws (48).
+                                    </p>
+                                </div>
+                                
+                                <!-- Judicial and Institutional Co-optation -->
+                                <div class="bg-white p-4 rounded-lg shadow-md">
+                                    <h4 class="font-bold mb-2 text-warning">Judicial and Institutional Co-optation</h4>
+                                    <ul class="list-disc pl-6 space-y-1 text-sm">
+                                        <li>Sensitive cases are postponed, enabling government fait accompli results (Vaishnav 41)</li>
+                                        <li>Appointment panels face obstruction (39–40)</li>
+                                        <li>Investigations targeting dissident officials signal retaliation (42)</li>
+                                    </ul>
+                                </div>
+                                
+                                <!-- Selective Enforcement -->
+                                <div class="bg-white p-4 rounded-lg shadow-md">
+                                    <h4 class="font-bold mb-2 text-warning">Selective Enforcement by State Agencies</h4>
+                                    <p class="text-sm">
+                                        Enforcement Directorate cases against opposition leaders quadrupled after 2014; 95% targeted opposition figures (45).
+                                    </p>
+                                    <p class="text-sm mt-2 italic">
+                                        Horizontal accountability—central to liberal democracy—is undermined.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Why India's Backsliding Has Been Particularly Fast -->
+                    <div class="mb-8">
+                        <div class="flex items-center mb-4">
+                            <div class="bg-info text-white w-8 h-8 rounded-full flex items-center justify-center mr-3">
+                                <span class="font-bold">4</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-info">Why India's Backsliding Has Been Particularly Fast</h3>
+                        </div>
+                        
+                        <div class="bg-white p-6 rounded-lg shadow-lg">
+                            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                                <!-- Majority Rule -->
+                                <div class="bg-primary/5 p-4 rounded-lg border-l-2 border-primary">
+                                    <h4 class="font-bold mb-2">Majority Rule Accelerates Institutional Deterioration</h4>
+                                    <p class="text-sm">
+                                        One-party dominance removed the coalition-era constraints (1989–2014) that once protected judicial autonomy.
+                                    </p>
+                                </div>
+                                
+                                <!-- Nationalist Ideology -->
+                                <div class="bg-warning/5 p-4 rounded-lg border-l-2 border-warning">
+                                    <h4 class="font-bold mb-2">Nationalist Ideology Enhances Public Acceptance</h4>
+                                    <p class="text-sm">
+                                        Hindu nationalism frames government actions as protective of national identity and labels dissent as "anti-national."
+                                    </p>
+                                </div>
+                                
+                                <!-- Media & Civil Society Dependence -->
+                                <div class="bg-danger/5 p-4 rounded-lg border-l-2 border-danger">
+                                    <h4 class="font-bold mb-2">Structural Dependence of Media & Civil Society</h4>
+                                    <p class="text-sm">
+                                        Media reliant on state revenue and NGOs reliant on foreign funding are highly vulnerable to selective pressure.
+                                    </p>
+                                </div>
+                                
+                                <!-- Weak Opposition -->
+                                <div class="bg-info/5 p-4 rounded-lg border-l-2 border-info">
+                                    <h4 class="font-bold mb-2">Weak, Fragmented Opposition</h4>
+                                    <p class="text-sm">
+                                        The Congress Party's organizational decline prevents effective resistance (Vaishnav 49).
+                                    </p>
+                                </div>
+                                
+                                <!-- Arbitration Bodies -->
+                                <div class="bg-accent/5 p-4 rounded-lg border-l-2 border-accent">
+                                    <h4 class="font-bold mb-2">Arbitration Bodies Lacking Intrinsic Safeguards</h4>
+                                    <p class="text-sm">
+                                        Courts, commissions, and investigative agencies operate largely on convention rather than entrenched constitutional firewalls.
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="mt-6 p-4 bg-gray-50 rounded-lg">
+                                <p class="italic">
+                                    Together, these conditions create a high-speed pathway to democratic erosion: strong executive power meets weak institutional resistance, intensified by identity-driven ideology and dependent civic ecosystems.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Outcomes -->
+                    <div>
+                        <div class="flex items-center mb-4">
+                            <div class="bg-info text-white w-8 h-8 rounded-full flex items-center justify-center mr-3">
+                                <span class="font-bold">5</span>
+                            </div>
+                            <h3 class="text-xl font-bold text-info">Outcomes</h3>
+                        </div>
+                        
+                        <div class="bg-info bg-opacity-10 p-6 rounded-lg border border-info border-opacity-30">
+                            <p class="mb-4">
+                                India is now rated as "partly free" or an "electoral autocracy" across major democracy indices.
+                            </p>
+                            
+                            <h4 class="font-bold mb-2">Key Areas of Democratic Decline</h4>
+                            <div class="grid grid-cols-2 md:grid-cols-3 gap-3">
+                                <div class="bg-white p-3 rounded-lg shadow-sm text-center">
+                                    <p class="text-sm font-medium">Civil Liberties</p>
+                                </div>
+                                <div class="bg-white p-3 rounded-lg shadow-sm text-center">
+                                    <p class="text-sm font-medium">Judicial Independence</p>
+                                </div>
+                                <div class="bg-white p-3 rounded-lg shadow-sm text-center">
+                                    <p class="text-sm font-medium">Media Freedom</p>
+                                </div>
+                                <div class="bg-white p-3 rounded-lg shadow-sm text-center">
+                                    <p class="text-sm font-medium">Minority Protections</p>
+                                </div>
+                                <div class="bg-white p-3 rounded-lg shadow-sm text-center">
+                                    <p class="text-sm font-medium">Horizontal Accountability</p>
+                                </div>
+                            </div>
+                            
+                            <div class="mt-6 mb-4">
+                                <h4 class="font-bold mb-2">Visual Evidence of Democratic Decline</h4>
+                                <div class="bg-white p-4 rounded-lg shadow-md text-center">
+                                    <img src="https://p26-flow-imagex-download-sign.byteimg.com/tos-cn-i-a9rns2rl98/0d9f8837ddb44949b9885bfae3d42b4e.png~tplv-a9rns2rl98-24:720:720.png?rcl=2025120314495428721311897FC02CD572&rk3s=8e244e95&rrcfp=8a172a1a&x-expires=1765349394&x-signature=zcDAqlR%2BF7HDFiZXjdXxwTmhrSM%3D" alt="V-Dem Institute Liberal Democracy Index for India (1950-2023)" class="mx-auto max-w-full h-auto">
+                                    <p class="text-sm text-gray-600 mt-2 italic">
+                                        V-Dem Institute Liberal Democracy Index for India (1950-2023), showing significant decline after 2014
+                                    </p>
+                                </div>
+                            </div>
+                            
+                            <div class="mt-4 p-4 bg-red-50 rounded-lg">
+                                <p class="font-medium text-center">
+                                    India—once one of the fastest-democratizing states of the 1990s—has become one of the fastest-autocratizing states in the 2020s.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="case-content hidden" id="hungary-content">
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <h3 class="text-2xl font-bold mb-4 text-warning">Hungary — Viktor Orbán</h3>
+                            <p class="text-sm italic mb-4">(The Most Classic Backsliding Case)</p>
+                            
+                            <h4 class="font-bold text-lg mb-2">Background</h4>
+                            <ul class="list-disc pl-6 mb-4 space-y-1">
+                                <li>Emerging democracy since 1990, but with a weak and highly fragmented party system</li>
+                                <li>Orbán came to power in 2010 after the economic crisis with a "strongman to save the country" approach</li>
+                            </ul>
+                            
+                            <h4 class="font-bold text-lg mb-2">Institutional Vulnerabilities</h4>
+                            <ul class="list-disc pl-6 mb-4 space-y-1">
+                                <li>Proportional voting + incentive mechanisms → A majority of seats can drastically amplify the advantage</li>
+                                <li>Weak party system → Fidesz quickly monopolized representation</li>
+                                <li>Weak independence of the courts and media</li>
+                            </ul>
+                        </div>
+                        
+                        <div>
+                            <h4 class="font-bold text-lg mb-2">Mechanisms of Backsliding</h4>
+                            <ul class="list-disc pl-6 mb-4 space-y-1">
+                                <li>Amending the constitution and court structure weakened judicial independence</li>
+                                <li>Gerrymandering enhanced the ruling party's structural advantage</li>
+                                <li>Expanding the national media apparatus → media capture</li>
+                            </ul>
+                            
+                            <h4 class="font-bold text-lg mb-2">Reasons for Faster Sliding</h4>
+                            <ul class="list-disc pl-6 mb-4 space-y-1">
+                                <li>Orbán enjoys extremely high public support, offering nationalism, a sense of security, and welfare subsidies</li>
+                                <li>Hungary's long-standing weak party system allowed Fidesz to rapidly consolidate the political space</li>
+                                <li>The already weak independence of the media and judiciary facilitated rapid co-optation with minimal resistance</li>
+                            </ul>
+                            
+                            <div class="mt-6 p-4 bg-warning bg-opacity-10 rounded-lg border border-warning border-opacity-30">
+                                <h4 class="font-bold mb-2">Outcome</h4>
+                                <p>
+                                    Hungary has shifted from democracy to competitive authoritarianism.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-neutral text-white py-12 px-4 md:px-8">
+        <div class="container mx-auto max-w-5xl">
+            <div class="mb-8">
+                <h2 class="text-2xl font-bold mb-4">Sources</h2>
+                <p class="mb-6">
+                    This website is based entirely on course materials from Introduction to Comparative Politics (Fall 2025), including lecture slides (L1–L23) and assigned readings.
+                </p>
+                <p class="mb-2 font-semibold">Additional external sources:</p>
+                <div class="pl-4 border-l-2 border-gray-400">
+                    <p class="mb-2">
+                        Munck, Gerardo L. "What is democracy? A reconceptualization of the quality of democracy." <span class="italic">Democratization</span> 23.1 (2016): 1-26.
+                    </p>
+                    <p class="mb-2">
+                        Vaishnav, Milan. "Backsliding in India?." <span class="italic">Journal of Democracy</span> 32.1 (2021): 35-49.
+                    </p>
+                    <p class="mb-2">
+                        V-Dem Institute. "Country Graph: India – Liberal Democracy Index." Varieties of Democracy (V-Dem), University of Gothenburg, https://v-dem.net/data_analysis/CountryGraph/. Accessed 3 Dec. 2025.
+                    </p>
+                    <p>
+                        Waldner, David, and Ellen Lust. "Unwelcome change: Coming to terms with democratic backsliding." <span class="italic">Annual Review of Political Science</span> 21.1 (2018): 93-113.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 pt-6 mt-6 text-center text-sm text-gray-400">
+                <p>&copy; 2025 Introduction to Comparative Politics. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="fixed bottom-6 right-6 bg-primary text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all duration-300">
+        <i class="fa fa-arrow-up"></i>
+    </button>
+
+    <script>
+        // Initialize AOS
+        document.addEventListener('DOMContentLoaded', function() {
+            AOS.init({
+                duration: 800,
+                easing: 'ease-in-out',
+                once: true
+            });
+            
+            // Case Study Tabs
+            const caseTabs = document.querySelectorAll('.case-tab');
+            const caseContents = document.querySelectorAll('.case-content');
+            
+            caseTabs.forEach(tab => {
+                tab.addEventListener('click', () => {
+                    const target = tab.getAttribute('data-target');
+                    
+                    // Remove active class from all tabs
+                    caseTabs.forEach(t => {
+                        t.classList.remove('text-primary', 'border-b-2', 'border-primary');
+                        t.classList.add('text-gray-600');
+                    });
+                    
+                    // Add active class to clicked tab
+                    tab.classList.add('text-primary', 'border-b-2', 'border-primary');
+                    tab.classList.remove('text-gray-600');
+                    
+                    // Hide all content
+                    caseContents.forEach(content => {
+                        content.classList.add('hidden');
+                    });
+                    
+                    // Show target content
+                    document.getElementById(`${target}-content`).classList.remove('hidden');
+                });
+            });
+            
+            // Set default active tab
+            caseTabs[0].click();
+            
+            // Back to Top Button
+            const backToTopButton = document.getElementById('back-to-top');
+            
+            window.addEventListener('scroll', () => {
+                if (window.pageYOffset > 300) {
+                    backToTopButton.classList.remove('opacity-0', 'invisible');
+                    backToTopButton.classList.add('opacity-100', 'visible');
+                } else {
+                    backToTopButton.classList.add('opacity-0', 'invisible');
+                    backToTopButton.classList.remove('opacity-100', 'visible');
+                }
+            });
+            
+            backToTopButton.addEventListener('click', () => {
+                window.scrollTo({
+                    top: 0,
+                    behavior: 'smooth'
+                });
+            });
+            
+            // Smooth scrolling for navigation links
+            document.querySelectorAll('nav a').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html>
